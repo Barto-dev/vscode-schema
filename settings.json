@@ -1,0 +1,95 @@
+{
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "workbench.iconTheme": "a-file-icon-vscode",
+    "workbench.colorTheme": "Default Light Modern",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#000000",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "storage.type.function.arrow",
+                "settings": {
+                    "foreground": "#000000",
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#0000ff"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#808080", // Change to your desired color for comments
+                    "fontStyle": "italic" // Change to your desired style for comments
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#008000",
+                    "fontStyle": "bold"
+                }
+            },
+            // semicolon between key:value pair
+            {
+                "scope": "meta.object-literal.key",
+                "settings": {
+                    "foreground": "#000000",
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "storage.modifier.ts",
+                ],
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "parameter": {
+                "foreground": "#000000",
+                "fontStyle": "underline"
+            }
+        }
+    },
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+}
