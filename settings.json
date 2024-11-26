@@ -11,6 +11,20 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#0000FF",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "support.class.component",
+                "settings": {
+                    "foreground": "#000080",
+                    "fontStyle": "bold"
+                }
+            },
+            {
                 "scope": "storage.type",
                 "settings": {
                     "foreground": "#FF0000",
